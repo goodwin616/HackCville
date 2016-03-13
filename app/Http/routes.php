@@ -11,9 +11,41 @@
 |
 */
 
+// Home route
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+// About route
+Route::get('/about', function () {
+    return view('about');
+});
+
+// Events route
+Route::get('/events', function () {
+    return view('events');
+});
+
+// News route
+Route::get('/news', function () {
+    return view('news');
+});
+
+// Contact route
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+// Join route
+Route::get('/join', function () {
+    return view('join');
+});
+
+// Login route
+Route::get('/login', function () {
+    return view('login');
+});
+
 
 /*
 |--------------------------------------------------------------------------
