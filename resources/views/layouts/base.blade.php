@@ -9,40 +9,6 @@
       <meta charset="UTF-8">
       <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
       <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
-      <!-- bootstrap css placed in /bootstrap folder -->
-      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" >
-      <!-- animate.css for wow.js fonts -->
-      <link rel="stylesheet" type="text/css" href="css/animate.css" >
-      <!-- utility.css -->
-      <link rel="stylesheet" type="text/css" href="css/utility.css">
-      <!-- slideshow.css --> 
-      <link rel="stylesheet" type="text/css" href="css/slideshow.css">
-      <!-- style -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- usertweak -->
-      <link rel="stylesheet" type="text/css" href="css/usertweak.css">
-      <!-- custom code in below file -->
-      <link rel="stylesheet" type="text/css" href="css/custom.css">
-      <!-- ionicons -->
-      <link rel="stylesheet" type="text/css" href="fonts/ionicons.css" >
-      <!-- lightbox plugin -->
-      <link rel="stylesheet" type="text/css" href="css/lightGallery.css" >
-  <!-- google fonts -->
-  
-<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat%7COswald%7CKarla%7CKarla:300,700%7COswald:300,400%7CPlayfair+Display'>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <body>
         <div class="container">
@@ -125,31 +91,5 @@
             </div>
         </div>
     </footer>
-
-        <!-- footer includes & scripts -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <!-- all plugins -->
-    <script type="text/javascript" src="js/modernizer.js"></script>
-    <script type="text/javascript" src="js/isMobile.js"></script>
-    <script type="text/javascript" src="js/slick.js"></script>
-    <script type="text/javascript" src="js/stellar.js"></script>
-
-    <script type="text/javascript" src="js/imagesLoaded.js"></script>
-    <script type="text/javascript" src="js/lightgallery.js"></script>
-    <script type="text/javascript" src="js/masonry.js"></script>
-
-    <script type="text/javascript" src="js/spectagram.js"></script>
-    <script type="text/javascript" src="js/wow.js"></script>
-    <script type="text/javascript" src="js/YTPlayer.js"></script>
-    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-    <!-- or include all at once using
-    <script type="text/javascript" src="js/plugins.min.js"></script>
-   -->
-    <!-- Google Maps -->
-    <script src="https://maps.google.com/maps/api/js" type="text/javascript">
-    </script>
-    <!-- main.js -->
-    <script type="text/javascript" src="js/main.js"></script>
 
 </html>
