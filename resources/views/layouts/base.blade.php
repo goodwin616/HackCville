@@ -2,7 +2,8 @@
 <html lang="en">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+<link rel="stylesheet" href="css/main.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
