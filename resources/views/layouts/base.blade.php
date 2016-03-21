@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -17,25 +19,26 @@
                   <!-- Brand and toggle get grouped for better mobile display -->
 
                   <div class="navbar-header">
-                    <a class="navbar-toggle collapsed icon ion-navicon nav-collapse-icon" data-target="#mainmenu" data-toggle="collapse"></a> <a class="navbar-brand" href="/"><img alt="image" class="img-responsive" src="img/logo.jpg"></a>
+                    <a class="navbar-toggle collapsed icon ion-navicon nav-collapse-icon" data-target="#mainmenu" data-toggle="collapse"></a>
+                      <a class="navbar-brand" href="/"><img alt="image" style="width:8%;" class="img-responsive" src="img/logo.jpg"></a>
                   </div><!-- Collect the nav links, forms, and other content for toggling -->
 
                   <div class="collapse navbar-collapse" id="mainmenu">
                     <ul class="nav navbar-nav navbar-right">
                      
                       <li class="">
-                        <a href="/about" class="" style="color:blue;">About</a>
+                        <a href="/about" class="" style="color:#2375bc; margin:auto;">About</a>
                       </li><li class="">
-                        <a href="/events" class="" style="color:blue;">Events</a>
+                        <a href="/events" class="" style="color:#2375bc; margin:auto;">Events</a>
                       </li><li class="">
-                        <a href="/news" class="" style="color:blue;">News</a>
+                        <a href="/news" class="" style="color:#2375bc; margin:auto;">News</a>
                       </li><li class="">
-                        <a href="/contact" class="" style="color:blue;">Contact</a>
+                        <a href="/contact" class="" style="color:#2375bc; margin:auto;">Contact</a>
                       </li><li class="">
-                        <a href="/join" class="" style="color:blue;">Join</a>
+                        <a href="/join" class="" style="color:#2375bc; margin:auto;">Join</a>
                       </li>
                       </li><li class="">
-                        <a href="/login" class="" style="color:blue;">Login</a>
+                        <a href="/login" class="" style="color:#2375bc; margin:auto;">Login</a>
                       </li>
                     </ul>
                   </div><!-- /.navbar-collapse -->
