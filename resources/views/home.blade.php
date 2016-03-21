@@ -1,4 +1,5 @@
-@extends('layouts.base') @include('layouts.emailsignup')
+@extends('layouts.base') 
+@include('layouts.emailsignup')
 
 <head>
     <title>HackCville - Home</title>
