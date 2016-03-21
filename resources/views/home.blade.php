@@ -9,7 +9,7 @@
             -webkit-clip-path: polygon(0 0, 0 100px, 100px 50px, 100px 0);
         }
         #cover {
-            background: url(images/intro.png) 50% 0 fixed;
+            background: url(img/cover.jpg) 50% 0 fixed;
             opacity: 0.4;
             filter: alpha(opacity=40);
             height: auto;
@@ -19,7 +19,7 @@
             padding: 100px 0;
         }
         #about {
-            background: blue 5% 0 fixed;
+            background: blue 50% 0 fixed;
             opacity: 0.4;
             filter: alpha(opacity=40);
             height: auto;
@@ -29,16 +29,7 @@
             padding: 200px 0;
         }
         #numbers {
-            background: url(images/about.png) 50% 0 fixed;
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
-            position: relative;
-            padding: 100px 0;
-            color: #fff;
-        }
-        #newsletter {
-            background: url(images/about.png) 50% 0 fixed;
+            background: url(img/cover.jpg) 50% 0 fixed;
             height: auto;
             margin: 0 auto;
             width: 100%;
@@ -83,8 +74,11 @@
     <!-- Cover -->
     <section id="cover" data-speed="6" data-type="background">
         <div class="container">
-            <div class="row-fluid">
-                Content goes here!
+            <div class="row-fluid text-center">
+                <h1>WE'RE<br>HACKCVILLE.</h1>
+                <br>
+                <h3>Our programs prepare students like you for careers in startups and entreprenuership.</h3>
+                <span><a href="#about">LEARN MORE</a></span>
             </div>
         </div>
     </section>
@@ -120,8 +114,6 @@
             This is the final section!
         </div>
     </section>
-    </div>
-
 
 
     <section class="">
@@ -200,40 +192,6 @@
                         <a class="btn btn-white btn-pill padd-bottom-xs uppercase" style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);">learn more&nbsp;</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="">
-        <div class="" style="background-image:url('https://images.unsplash.com/photo-1453230645768-7ecb0653013d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=48d3a919723adf0bb64483dfa49973fd');">
-            <div class="overlay" style="background-color: rgba(12, 62, 217, 0.368627);">
-                <div class="container full-height">
-                    <div class="v-align full-height">
-                        <div class="h-align ">
-                            <div class="inner padd-top-2x padd-bottom-2x text-center">
-
-                                <h1 class="color-white title">WANT UPDATES?</h1>
-                                <p class="text-sm color-white">
-                                    Tune into a community of hundreds of students and alumni that are interested in innovation, entrepreneurship, and startups.</p>
-                                <form class="row padd-bottom-xs mailchimp padd-top-md" action="http://us1.list-manage.com/subscribe/post?u=a0632cd90346d0712707d422e&amp;id=992c4932eb" method="post" target="_blank">
-                                    <div class="form-group col-md-3 col-md-offset-1 no-padding">
-                                        <input type="text" class="form-control input-field" name="FNAME" placeholder="Name" id="mce-FNAME">
-                                    </div>
-                                    <div class="form-group col-md-4 no-padding">
-                                        <input type="text" class="form-control input-field" placeholder="E-mail address" name="EMAIL" id="mce-EMAIL">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <button type="submit" class="btn btn-block btn-lg btn-black">Subscribe</button>
-                                    </div>
-                                    <p class="form-group form-callback-message col-md-10 col-md-offset-1 no-padding padd-top-xs"></p>
-                                </form>
-                                <p class="color-white">
-                                    We promise not to spam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>

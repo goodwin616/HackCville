@@ -108,8 +108,6 @@
                 <div class="col-md-2">
                     <h4 class="hero-subtitle padd-bottom-xs padd-top-xs">
                             hello@hackcville.com</h4>
-
-
                 </div>
             </div>
         </div>
