@@ -1,5 +1,4 @@
-@extends('layouts.base') 
-@include('layouts.emailsignup')
+@extends('layouts.base') @include('layouts.emailsignup')
 
 <head>
     <title>HackCville - Home</title>
@@ -105,7 +104,28 @@
     <!-- By the Numbers -->
     <section id="numbers" data-speed="2" data-type="background">
         <div class="container">
-            This is the final section!
+            <div class="row text-center">
+                <div class="col-lg-3">
+                    <h2>782
+                        <br><strong>workshops</strong>
+                    </h2>
+                </div>
+                <div class="col-lg-3">
+                    <h2>161
+                        <br><strong>active student members</strong>
+                    </h2>
+                </div>
+                <div class="col-lg-3">
+                    <h2>3
+                        <br><strong>programs</strong>
+                    </h2>
+                </div>
+                <div class="col-lg-3">
+                    <h2>100
+                        <br><strong>other</strong>
+                    </h2>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -113,74 +133,6 @@
     <section id="newsletter" data-speed="2" data-type="background">
         <div class="container">
             This is the final section!
-        </div>
-    </section>
-
-
-    <section class="">
-        <div class="">
-            <div class="slide">
-                <div class="">
-                    <div class="">
-                        <div class="">
-                            <div class="row">
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <h1 class="">Apply to our programs</h1>
-                                    <p class="text-sm  text-center" style="font-size: 24px;">
-                                        HackCville offers three programs for students interested
-                                        <br>in entrepreneurship, media and education.&nbsp;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="">
-        <div class="">
-            <div class="">
-                <div class="row">
-                    <h1 class="">programs for any interest.</h1>
-                    <div class="">
-                        <div class="">
-                            <div class="overlay">
-                                <div class="">
-                                    <a href="" class="">Take a look</a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="">
-                            Hustle class</p>
-                    </div>
-
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <div class="">
-                                    <a href="" class="btn btn-white-border">take a look</a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="">
-                            The Pioneer</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 padd-top-md padd-bottom-md">
-                        <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1453133451515-5ff7c1d0d63c?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=400&amp;fit=max&amp;s=8e29eb26ae7415b02c1d1af049595152')">
-                            <div class="overlay">
-                                <div class="padd-top-2x padd-bottom-2x text-center">
-                                    <a href="#" class="btn btn-white-border">take a look</a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="hero-subtitle text-center padd-top-xs" style="font-size: 20px;">
-                            Rethink</p>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </section>
 
