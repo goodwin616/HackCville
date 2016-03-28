@@ -3,39 +3,79 @@
 <head>
     <title>HackCville - Home</title>
     <style>
-        img-diag {
+        .img-diag {
             width: 100px;
             height: 100px;
             -webkit-clip-path: polygon(0 0, 0 100px, 100px 50px, 100px 0);
         }
-        #cover {
-            background: url(img/cover.jpg) 50% 0 fixed;
-            opacity: 0.4;
-            filter: alpha(opacity=40);
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
-            position: relative;
-            padding: 100px 0;
-        }
         #about {
-            background: blue 50% 0 fixed;
-            opacity: 0.4;
-            filter: alpha(opacity=40);
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
+            background: blue no-repeat center center fixed;
+            display: table;
+            height: 100%;
             position: relative;
-            padding: 200px 0;
+            width: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: deepskyblue;
         }
         #numbers {
-            background: url(img/cover.jpg) 50% 0 fixed;
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
+            /*            background: url(img/cover2.jpg) 50% 0 fixed;*/
+            background: url(img/cover2.jpg) no-repeat center center fixed;
+            display: table;
+            height: 100%;
             position: relative;
-            padding: 100px 0;
-            color: #fff;
+            width: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: deepskyblue;
+        }
+        .text-vcenter {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .text-vcenter h1 {
+            font-size: 4.5em;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+        }
+        #home {
+            background: url(img/cover.jpg) no-repeat center center fixed;
+            display: table;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: deepskyblue;
+        }
+        #learnmore {
+            border-radius: 12px;
+            color: white;
+            font-weight: bold;
+            background: deepskyblue;
+            border-color: deepskyblue;
+        }
+        .tint {
+            position: relative;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
+        }
+        .tint-dark-blue {
+            background: rgba(0, 0, 255, 0.5);
+        }
+        .tint-light-blue {
+            background: rgba(0, 255, 255, 0.5);
         }
     </style>
 
@@ -72,69 +112,58 @@
 <body>
 
     <!-- Cover -->
-    <section id="cover" data-speed="6" data-type="background">
-        <div class="container">
-            <div class="row-fluid text-center">
-                <h1>WE'RE<br>HACKCVILLE.</h1>
-                <br>
+    <div id="home" class="home tint tint-dark-blue" data-speed="6" data-type="background">
+        <div class="text-vcenter">
+            <div class="col-lg-4 col-lg-offset-4">
+                <h1>We're HackCville.</h1>
                 <h3>Our programs prepare students like you for careers in startups and entreprenuership.</h3>
-                <span><a href="#about">LEARN MORE</a></span>
+                <br />
+                <a id="learnmore" href="#about" class="btn btn-default btn-lg">Learn more</a>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- HackCville About -->
-    <section id="about" data-speed="4" data-type="background">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="col-lg-4">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                </div>
+    <div id="about" class="about tint tint-light-blue" data-speed="4" data-type="background">
+        <div class="text-vcenter">
+            <div class="col-lg-4">
+                <img class="img-responsive " src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png ">
+            </div>
+            <div class="col-lg-4">
+                <img class="img-responsive " src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png ">
+            </div>
+            <div class="col-lg-4">
+                <img class="img-responsive " src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png ">
+                <img class="img-responsive " src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png ">
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- By the Numbers -->
-    <section id="numbers" data-speed="2" data-type="background">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-3">
-                    <h2>782
+    <div id="numbers" class="numbers tint tint-dark-blue" data-speed="2 " data-type="background">
+        <div class="text-vcenter">
+            <div class="col-lg-3">
+                <h2>782
                         <br><strong>workshops</strong>
                     </h2>
-                </div>
-                <div class="col-lg-3">
-                    <h2>161
+            </div>
+            <div class="col-lg-3">
+                <h2>161
                         <br><strong>active student members</strong>
                     </h2>
-                </div>
-                <div class="col-lg-3">
-                    <h2>3
+            </div>
+            <div class="col-lg-3">
+                <h2>3
                         <br><strong>programs</strong>
                     </h2>
-                </div>
-                <div class="col-lg-3">
-                    <h2>100
+            </div>
+            <div class="col-lg-3">
+                <h2>100
                         <br><strong>other</strong>
                     </h2>
-                </div>
             </div>
         </div>
-    </section>
-
-    <!-- Newsletter Signup -->
-    <section id="newsletter" data-speed="2" data-type="background">
-        <div class="container">
-            This is the final section!
-        </div>
-    </section>
+    </div>
 
     @yield('emailsignup')
 
