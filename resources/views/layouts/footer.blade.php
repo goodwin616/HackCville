@@ -6,7 +6,7 @@
 
                 <p class="color-primary padd-top-xs">Hackcville builds student careers in entrepreneurship and falconry.
                     <br>
-                    <br>we are a 501(c)3 non-profit organization and we deserve to get some donations from your broke-ass.</p>
+                    <br>We are a 501(c)3 non-profit organization and we deserve to get some donations from your broke-ass.</p>
                 <p class="padd-bottom-xs color-primary social">
                     <a href="#" class="icon ion-social-facebook"></a>
                     <a href="#" class="icon ion-social-googleplus"></a>
