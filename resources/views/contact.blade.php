@@ -3,7 +3,7 @@
 <head>
     <title>HackCville - Contact</title>
      <style>
-    #about {
+     #contactdiv {
             background: #ADD8E6;
             height: auto;
             margin: 0 auto;
@@ -18,7 +18,7 @@
         margin-left: 10%;
         margin-right: 5%;
      }
-     #email {
+     #contactgreeting {
       	display: inline-block;
       	width: 37%;
       	height: 50%;
@@ -31,7 +31,7 @@
 @section('content')
 
 <body>
-	<div id="about">
+	<div id="contactdiv">
 	 	<div id= "map">
 	 		<script>
   			function initMap() {
@@ -50,7 +50,7 @@
 			</script>
 			<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"async defer></script>  
 		</div>
-	 	<div id= "email">
+	 	<div id= "contactgreeting">
 			<p>
 			<h2>Contact Us</h2>
 			<h3>Or come visit us on the Corner!</h3>
