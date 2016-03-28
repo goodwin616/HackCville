@@ -1,8 +1,85 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
 }
-
+.img-diag {
+    width: 100px;
+    height: 100px;
+    -webkit-clip-path: polygon(0 0, 0 100px, 100px 50px, 100px 0);
+}
+#home {
+    background: url(../img/cover.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: deepskyblue;
+}
+#about {
+    background: deepskyblue no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: deepskyblue;
+}
+#numbers {
+    background: url(../img/cover2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: deepskyblue;
+}
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+#learnmore {
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    background: deepskyblue;
+    border-color: deepskyblue;
+}
+.tint {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
+    background: rgba(0, 0, 255, 0.5);
+}
+.tint-dark-blue {
+    background: rgba(0, 0, 255, 0.5);
+}
+.tint-light-blue {
+    background: rgba(0, 255, 255, 0.5);
+}
