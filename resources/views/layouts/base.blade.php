@@ -1,5 +1,4 @@
-@include('layouts.navbar')
-@include('layouts.footer')
+@include('layouts.navbar') @include('layouts.footer')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <!-- Meta Tags -->
@@ -25,10 +25,8 @@
 
 <!-- Collect the nav links, forms, and other content for toggling -->
 
- <body>
-    @yield('navbar')
-
-    @yield('content')
+<body>
+    @yield('navbar') @yield('content')
 
 </body>
 

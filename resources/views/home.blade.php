@@ -2,43 +2,67 @@
 
 <head>
     <title>HackCville - Home</title>
-    <style>
-        img-diag {
-            width: 100px;
-            height: 100px;
-            -webkit-clip-path: polygon(0 0, 0 100px, 100px 50px, 100px 0);
-        }
-        #cover {
-            background: url(img/cover.jpg) 50% 0 fixed;
-            opacity: 0.4;
-            filter: alpha(opacity=40);
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
-            position: relative;
-            padding: 100px 0;
-        }
-        #about {
-            background: blue 50% 0 fixed;
-            opacity: 0.4;
-            filter: alpha(opacity=40);
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
-            position: relative;
-            padding: 200px 0;
-        }
-        #numbers {
-            background: url(img/cover.jpg) 50% 0 fixed;
-            height: auto;
-            margin: 0 auto;
-            width: 100%;
-            position: relative;
-            padding: 100px 0;
-            color: #fff;
-        }
-    </style>
+</head>
 
+@section('content')
+
+<body>
+
+    <!-- Cover -->
+    <div id="home" class="home tint tint-dark-blue" data-speed="6" data-type="background">
+        <div class="text-vcenter">
+            <div class="col-lg-4 col-lg-offset-4">
+                <h1>We're HackCville.</h1>
+                <h3>Our programs prepare students like you for careers in startups and entreprenuership.</h3>
+                <br />
+                <a id="learnmore" href="#about" class="btn btn-default btn-lg">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HackCville About -->
+    <div id="about" class="about tint tint-light-blue" data-speed="4" data-type="background">
+        <div class="text-vcenter">
+            <div class="col-lg-4">
+                <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
+            </div>
+            <div class="col-lg-4">
+                <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
+            </div>
+            <div class="col-lg-4">
+                <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
+                <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- By the Numbers -->
+    <div id="numbers" class="numbers tint tint-dark-blue" data-speed="2" data-type="background">
+        <div class="text-vcenter">
+            <div class="col-lg-3">
+                <h2>782
+                        <br><strong>workshops</strong>
+                    </h2>
+            </div>
+            <div class="col-lg-3">
+                <h2>161
+                        <br><strong>active student members</strong>
+                    </h2>
+            </div>
+            <div class="col-lg-3">
+                <h2>3
+                        <br><strong>programs</strong>
+                    </h2>
+            </div>
+            <div class="col-lg-3">
+                <h2>100
+                        <br><strong>other</strong>
+                    </h2>
+            </div>
+        </div>
+    </div>
+
+    @yield('emailsignup')
     <script>
         $(document).ready(function() {
             // cache the window object
@@ -64,80 +88,6 @@
             }); // end section function
         }); // close out script
     </script>
-
-</head>
-
-@section('content')
-
-<body>
-
-    <!-- Cover -->
-    <section id="cover" data-speed="6" data-type="background">
-        <div class="container">
-            <div class="row-fluid text-center">
-                <h1>WE'RE<br>HACKCVILLE.</h1>
-                <br>
-                <h3>Our programs prepare students like you for careers in startups and entreprenuership.</h3>
-                <span><a href="#about">LEARN MORE</a></span>
-            </div>
-        </div>
-    </section>
-
-    <!-- HackCville About -->
-    <section id="about" data-speed="4" data-type="background">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="col-lg-4">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                    <img class="img-responsive" src="http://hackcville.com/wp-content/uploads/2014/09/hackcville-logo1.png">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- By the Numbers -->
-    <section id="numbers" data-speed="2" data-type="background">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-3">
-                    <h2>782
-                        <br><strong>workshops</strong>
-                    </h2>
-                </div>
-                <div class="col-lg-3">
-                    <h2>161
-                        <br><strong>active student members</strong>
-                    </h2>
-                </div>
-                <div class="col-lg-3">
-                    <h2>3
-                        <br><strong>programs</strong>
-                    </h2>
-                </div>
-                <div class="col-lg-3">
-                    <h2>100
-                        <br><strong>other</strong>
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Signup -->
-    <section id="newsletter" data-speed="2" data-type="background">
-        <div class="container">
-            This is the final section!
-        </div>
-    </section>
-
-    @yield('emailsignup')
-
 
 </body>
 
